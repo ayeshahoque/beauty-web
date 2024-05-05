@@ -1,0 +1,172 @@
+body{
+    margin: 0 10%;
+}
+
+h1{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: "Marko One", Georgia, serif;
+    color: rgb(74, 70, 105);
+}
+h2{
+    text-align: center;
+    color: rgb(74, 70, 105);
+    font-family: "Marko One", Georgia, serif;
+    text-transform: uppercase;
+}
+h4{
+    color: rgb(74, 70, 105);
+    text-transform: uppercase;
+    font-family: "Marko One", Georgia, serif;
+}
+.p{
+    font-size: 20px;
+}
+body {
+    background-image: url(swirlpattern2.jpg);
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(93, 98, 131);
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.link{
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 18px;
+    padding: 20px;
+    color: #000;
+}
+.container {
+    display: flex;
+}
+.column {
+    flex: 1;
+    padding: 20px;
+}
+.banner {
+    padding: 20px; 
+    text-align: center; 
+    position: relative; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.image {
+    float: left;    
+    margin: 0 15px 0 0;
+    padding-bottom: 5%;
+} 
+.text {
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+}
+.gif{
+    float: right;
+    padding-bottom: 5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    background-color: #727bad;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #727bad;
+}
+.box {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box a {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(
+        254,
+        126,
+        126,
+        0.7
+    );
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    position: relative;
+    background: white;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.modal:target {
+    display: flex;
+}
